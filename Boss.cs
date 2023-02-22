@@ -37,7 +37,7 @@ public class Boss : MonoBehaviour
     Transform target;
     [Header("Others")]
     Quaternion startRotation;
-    //if inrange check closest cannon, check if it should rotate lefo right and rotate ship
+    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
